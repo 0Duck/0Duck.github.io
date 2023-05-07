@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    height: 100%;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #181733;
+    color: #fff;
+    text-align: center;
+    padding: 0 2rem;
+    user-select: none;
+    text-transform: uppercase;
+    height: 4rem;
+}
+
+.menu > ul > li {
+    float: left;
+    width: 140px;
+    position: relative;
+}
+
+.menu > ul > li > ul {
+    width: 140px;
+    display: none;
+    position: absolute;
+    font-weight: 200;
+    background: #1c4682;
+}
+
+.menu > ul > li:hover > ul {
+    display: block;
+}
+
+.menu > ul > li > ul > li:hover {
+    background: #a01a2b;
+    transition: ease 0.6s; /* 지연시간을 통해 효과를 준다 */
+}
+
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #181733;
+}
+
+.time {
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+.times {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    color: #fff;
+}
