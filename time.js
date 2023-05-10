@@ -9,7 +9,6 @@ function updateCountryTime(target, offset){
     var day = time.getDay();
     var week = ['일','월','화','수','목','금','토'];
 
-    // 시차 계산
     var hours = time.getHours() + offset;
     var minutes = time.getMinutes();
     var seconds = time.getSeconds();

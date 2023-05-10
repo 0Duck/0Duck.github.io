@@ -1,0 +1,11 @@
+.all_pl{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 2rem;
+}
+.pl{
+    padding-right: 1.5rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
