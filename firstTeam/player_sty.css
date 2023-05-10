@@ -9,3 +9,13 @@
     height: 100%;
     text-align: center;
 }
+#sns{
+    display: flex;
+    justify-content: center;
+}
+#left{
+    padding-right: 0.5rem;
+}
+#right{
+    padding-left: 0.5rem;
+}
