@@ -1,0 +1,17 @@
+.flip {
+    transition: transform 0.5s;  /* 지연시간 0.5초 */
+    transform: perspective(1100px) rotateY(0deg);
+    transform-style: preserve-3d /* 3차원 애니메이션 효과를 주기 위해 사용 */
+}
+.flip:hover {
+    transform: perspective(1100px) rotateY(180deg);  /* perspective를 사용하여 애니메이션 효과를 더 극대화 함 */
+}
+.img_back {
+    transform: rotateY(180deg); /*hover시에 180도가 돌아가므로 좌우반전이 일어나는것을 막기 위해 미리 반전을 시켜둔다 */
+}
+.flip > * {
+    backface-visibility: hidden; /* 뒷면이 보이는 현상 해결 */
+}
+.flip .img_front {
+    position: absolute;  /* 뒷면의 사진 겹치게 하기 위해서 사용 */
+}
