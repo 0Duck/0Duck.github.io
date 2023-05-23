@@ -1,0 +1,24 @@
+td {
+    padding: 2rem;
+}
+.legend_name{
+    display: flex;
+}
+.box {
+    display: flex;
+}
+.name_srch {
+    text-align: center;
+    align-items: center;
+}
+.his_record{
+    display: flex;
+}
+.box_a{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+table{      /* 테이블 중앙정렬*/
+    margin-left: auto;
+    margin-right: auto;
+}
