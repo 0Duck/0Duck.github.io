@@ -1,4 +1,4 @@
-td {
+.name_table td {
     padding: 2rem;
 }
 .legend_name{
@@ -6,19 +6,51 @@ td {
 }
 .box {
     display: flex;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
 }
 .name_srch {
     text-align: center;
     align-items: center;
 }
-.his_record{
-    display: flex;
-}
-.box_a{
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
 table{      /* 테이블 중앙정렬*/
     margin-left: auto;
     margin-right: auto;
+}
+.box_left{
+    width: 30%;
+    text-align: center;
+}
+.box_right{
+    width: 30%;
+    padding-left: 2rem;
+    text-align: center;
+}
+.box_middle{
+    width: 40%;
+}
+.legend_video{
+    padding-top: 2rem;
+    display: flex;
+    height: 40%;
+}
+.txt {
+    text-align: center;
+}
+.cup td{
+    padding: 1rem;
+}
+.cup {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.legend_record{
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.legend_record td{
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
 }
