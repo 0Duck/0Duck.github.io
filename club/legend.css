@@ -7,11 +7,12 @@
 .box {
     display: flex;
     padding-top: 1rem;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 }
 .name_srch {
     text-align: center;
     align-items: center;
+    padding-bottom: 2rem;
 }
 table{      /* 테이블 중앙정렬*/
     margin-left: auto;
@@ -53,4 +54,11 @@ table{      /* 테이블 중앙정렬*/
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 0.5rem;
+}
+.cup_pep {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.cup_pep td{
+    padding: 0.5rem;
 }
