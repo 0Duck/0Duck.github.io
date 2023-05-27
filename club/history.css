@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+}
+.main_left{
+    width: 70%;
+}
+.main_right{
+    width: 30%;
+}
