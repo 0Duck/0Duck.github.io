@@ -2,8 +2,66 @@
     display: flex;
 }
 .main_left{
-    width: 70%;
+    width: 60%;
+    padding-left: 2rem;
+    text-align: center;
+}
+.campnou{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .main_right{
-    width: 30%;
+    width: 40%;
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+    text-align: center;
+}
+.main_right table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.win_cup{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.win_cup td{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+}
+.club_game{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.club_game td{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 1.5rem;
+}
+.laliga{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.laliga td{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+}
+.ucl{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.ucl td{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+}
+.prize{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.prize td{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
 }
