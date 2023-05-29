@@ -33,3 +33,6 @@
     width: 30%;
     text-align: center;
 }
+.ft_assist{
+    display: flex;
+}
