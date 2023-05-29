@@ -1,3 +1,35 @@
 .ft_goal{
     display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.goal_stat{
+    width: 30%;
+    text-align: center;
+}
+.goal_stat table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.goal_stat td{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-bottom: 1rem;
+}
+.laliga_goal{
+    width: 40%;
+    text-align: center;
+}
+.laliga_goal table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.laliga_goal td{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-bottom: 1.2rem;
+}
+.goal_video{
+    width: 30%;
+    text-align: center;
 }
