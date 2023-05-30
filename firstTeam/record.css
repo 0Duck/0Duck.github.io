@@ -33,6 +33,38 @@
     width: 30%;
     text-align: center;
 }
+
 .ft_assist{
     display: flex;
+    padding-top: 3rem;
+}
+.assist_stat{
+    width: 30%;
+    text-align: center;
+}
+.assist_stat table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.assist_stat td{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+}
+.laliga_assist{
+    width: 40%;
+    text-align: center;
+}
+.laliga_assist table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.laliga_assist td{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1.2rem;
+}
+.assist_video{
+    width: 30%;
+    text-align: center;
 }
