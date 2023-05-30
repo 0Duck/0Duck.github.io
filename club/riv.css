@@ -1,25 +1,25 @@
 .club_box{
     padding-top: 2rem;
     padding-bottom: 5rem;
+    border-radius: 25px;
+    background-color: aliceblue;
+    margin: 2rem;
 }
 .club_main{
     display: flex;
     padding-bottom: 2rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 .club_left{
-    width: 20%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    width: 15%;
+    margin-left: 2rem;
 }
 .club_middle{
-    width: 40%;
+    width: 35%;
     text-align: center;
 }
 .club_right{
-    width: 40%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    width: 50%;
     text-align: center;
     align-items: center;
 }
