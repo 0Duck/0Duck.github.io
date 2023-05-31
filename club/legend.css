@@ -23,8 +23,9 @@ body{
     border-radius: 25px;
     box-shadow: 0px 2px 10px 0px black;
 }
-.name_srch table{
+.name_table{
     border-collapse: collapse;
+    border-radius: 25px;
 }
 .red:hover{
     background-color: #981038;

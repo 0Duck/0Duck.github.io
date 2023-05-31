@@ -1,22 +1,30 @@
+.newsTotal{
+    background-color: aliceblue;
+    box-shadow: 3px 4px 10px 0px black;
+    border-radius: 25px;
+    margin: 2rem;
+}
 .newsPage{
     display: flex;
     overflow: hidden;
     flex-wrap: nowrap;
     justify-content: center;
-    padding-left: 1.5rem;
 }
 .newsPage img{
     width: 100%;
     height: 80%;
     transition: all 0.2s linear;
     overflow: hidden;
+    border-radius: 25px;
 }
 .newsPage img:hover{
     transform: scale(1.08);
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
 }
 .news{
-    padding-right: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 #newsText{
     text-align: center;

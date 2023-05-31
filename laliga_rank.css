@@ -1,0 +1,69 @@
+.mainPage_top{
+    display: flex;
+}
+.laliga_table{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    box-shadow: 3px 4px 10px 0px black;
+}
+.laliga_table img{
+    width: 16px;
+    height: 16px;
+    padding-right: 0.2rem;
+}
+.l_table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.l_table td{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    font-size: 13.1px;
+}
+.r_table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0.3rem;
+}
+.r_table td{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    font-size: 13.1px;
+}
+/*경기 일정 css*/
+.bar_game{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bar_game table{
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-right: 1rem;
+    box-shadow: 3px 4px 10px 0px black;
+}
+.bar_game img{
+    width: 16px;
+    height: 16px;
+}
+.bar_game td{
+    font-size: 13.1px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+}
