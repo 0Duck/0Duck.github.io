@@ -1,7 +1,12 @@
 .flip {
+    padding-top: 1rem;
     transition: transform 0.5s;  /* 지연시간 0.5초 */
     transform: perspective(1100px) rotateY(0deg);
     transform-style: preserve-3d /* 3차원 애니메이션 효과를 주기 위해 사용 */
+}
+.flip img{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px black;
 }
 .flip:hover {
     transform: perspective(1100px) rotateY(180deg);  /* perspective를 사용하여 애니메이션 효과를 더 극대화 함 */

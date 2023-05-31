@@ -1,7 +1,13 @@
+.pll{
+    margin: 1rem;
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 3px 4px 10px 0px black;
+    padding-bottom: 0.5rem;
+}
 .all_pl{
     display: flex;
     flex-wrap: nowrap;
-    padding-bottom: 2rem;
 }
 .pl{
     padding-right: 1.5rem;
@@ -25,7 +31,4 @@ p{
 #name{
     color:black;
     font-weight: bold;
-}
-body{
-    background-color: aliceblue;
 }
