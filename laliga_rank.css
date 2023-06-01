@@ -3,7 +3,7 @@
 }
 .laliga_table{
     display: flex;
-    background-color: aliceblue;
+    background-color: #fffaf0;
     border-radius: 25px;
     margin-left: 1rem;
     margin-top: 2rem;
@@ -48,7 +48,7 @@
     margin-right: auto;
 }
 .bar_game table{
-    background-color: aliceblue;
+    background-color: #fffaf0;
     border-radius: 25px;
     margin-right: 1rem;
     margin-top: 2rem;

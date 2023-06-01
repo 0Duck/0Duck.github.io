@@ -2,7 +2,10 @@ body{
     background-color: #2e2c36;
 }
 .name_table td {
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
 }
 .legend_name{
     display: flex;
@@ -15,17 +18,16 @@ body{
 .name_srch {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 4.75rem;
+    margin-right: 4.75rem;
     background-color: aliceblue;
     text-align: center;
     align-items: center;
-    border-radius: 25px;
     box-shadow: 0px 2px 10px 0px black;
+    color: #d9b200;
 }
 .name_table{
     border-collapse: collapse;
-    border-radius: 25px;
 }
 .red:hover{
     background-color: #981038;
