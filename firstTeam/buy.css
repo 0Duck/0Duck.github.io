@@ -1,0 +1,47 @@
+.buy_ticket{
+    display: flex;
+}
+.site{
+    width: 50%;
+    text-align: center;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    background-color: #fffaf0;
+    box-shadow: 3px 4px 10px 0px black;
+    border-radius: 25px;
+    margin: 1rem;
+}
+.site a{
+    font-size: 20px;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.site img{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+.ticket_txt{
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.ticket_txt p{
+    font-size: 15px;
+}
+.ticketing{
+    width: 50%;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+}
+.ticket_other{
+    width: 50%;
+}
+.ticket_txt{
+    padding-bottom: 0.5rem;
+}
