@@ -25,6 +25,14 @@
     padding-right: 0.5rem;
     box-shadow: 3px 4px 10px 0px black;
 }
+.campnou {
+    background-image: url(../image/campnou_back.jpeg);
+    background-size: 100%;
+    color: #ffff00;
+}
+.campnou p{
+    line-height: 2rem;
+}
 .main_right{
     width: 40%;
     padding-right: 2rem;
@@ -45,13 +53,11 @@
 }
 .point_laliga{
     background-image: url(../image/laliga_back.webp);
-    opacity: 1;
-    color: antiquewhite;
+    color: #f9f9f9;
 }
 .point_ucl{
     background-image: url(../image/ucl_back.jpg);
-    opacity: 1;
-    color: antiquewhite;
+    color: #f9f9f9;
 }
 .win_cup td{
     padding-left: 2rem;
