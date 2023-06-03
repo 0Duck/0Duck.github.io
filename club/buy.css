@@ -12,12 +12,6 @@
     border-radius: 25px;
     margin: 1rem;
 }
-.site a{
-    font-size: 20px;
-    color: black;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
 .site img{
     width: 80%;
     height: auto;

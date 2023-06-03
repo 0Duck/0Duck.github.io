@@ -1,0 +1,19 @@
+.barca{
+    display: flex;
+    margin: 2rem;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 3px 4px 10px 0px black;
+    padding-bottom: 2rem;
+}
+.barca_st{
+    text-align: center;
+    width: 40%;
+}
+.barca_st p{
+    padding-top: 0.6rem;
+}
+.explain{
+    width: 60%;
+    padding-right: 1rem;
+}
