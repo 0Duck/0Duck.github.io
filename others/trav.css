@@ -1,6 +1,55 @@
 .travel_barca{
     display: flex;
+    justify-content: center;
+}
+.travel{
+    width: 30%;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    margin: 1rem;
+}
+.travel1{
+    width: 30%;
+}
+.weather{
+    margin: 1rem;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+}
+.weather img{
+    width: 60%;
+    height: 60%;
+}
+.euro {
+    margin: 1rem;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+}
+.euro img{
+    width: 60%;
+    height: 60%;
+}
+.course{
+    margin: 1rem;
+    border-radius: 25px;
+    background-color: aliceblue;
+    width: 30%;
 }
 .travel_place{
     display: flex;
+    margin: 1rem;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+.place{
+    width: 25%;
+    margin: 1rem;
+    text-align: center;
+}
+.place img{
+    width: 80%;
+    height: 80%;
 }
