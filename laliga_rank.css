@@ -1,5 +1,6 @@
 .mainPage_top{
     display: flex;
+    justify-content: center;
 }
 .laliga_table{
     display: flex;
