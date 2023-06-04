@@ -6,7 +6,8 @@
     text-align: center;
 }
 .club_history{
-    background-color: aliceblue;
+    background-color: #ffffff;
+    color: #535353;
     border-radius: 25px;
     margin: 1rem;
     padding-left: 0.5rem;
@@ -18,17 +19,13 @@
 .campnou, .culer, .mes, .rama{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: aliceblue;
+    background-color: #ffffff;
     border-radius: 25px;
     margin: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     box-shadow: 3px 4px 10px 0px black;
-}
-.campnou {
-    background-image: url(../image/campnou_back.jpeg);
-    background-size: 100%;
-    color: #ffff00;
+    color: #535353;
 }
 .campnou p{
     line-height: 2rem;
@@ -46,10 +43,11 @@
 .winning, .play_club, .point_laliga, .point_ucl, .prize_all{
     margin: 1rem;
     border-radius: 25px;
-    background-color: aliceblue;
+    background-color: #ffffff;
     padding-bottom: 2rem;
     padding-top: 1rem;
     box-shadow: 3px 4px 10px 0px black;
+    color: #535353;
 }
 .fan{
     margin: 1rem;
@@ -59,16 +57,17 @@
     box-shadow: 3px 4px 10px 0px black;
     padding-top: 1rem;
     padding-bottom: 2rem;
+    color: #535353;
 }
 .fans_btn{
-    align-items: center;
     display: flex;
+    justify-content: center;
 }
 .fan_btn{
-    align-items: center;
-    display: flex;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 30%;
     text-align: center;
-    width: 50%;
     border-radius: 25px;
     background-color: #f8f8f8;
 }
