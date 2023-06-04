@@ -1,0 +1,67 @@
+.eu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.eu_table{
+    display: flex;
+    justify-content: center;
+    background-color: #fffaf0;
+    border-radius: 25px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    box-shadow: 3px 4px 10px 0px black;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.3rem;
+}
+.eu_table img{
+    width: 16px;
+    height: 16px;
+    padding-right: 0.2rem;
+}
+.l_rank{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.l_rank td{
+    padding: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-size: 13.3px;
+}
+.r_rank{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.r_rank td{
+    padding: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-size: 13.1px;
+}
+.e_goal{
+    background-color: #fffaf0;
+    border-radius: 25px;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 3px 4px 10px 0px black;
+    padding-bottom: 0.3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.e_goal td{
+    padding-left: 0.3rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-top: 0.2rem;
+    font-size: 13.1px;
+}

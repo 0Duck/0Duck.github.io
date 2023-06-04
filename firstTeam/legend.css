@@ -38,13 +38,14 @@ body{
     color: #2e2c36;
 }
 .name_btn:hover{
-    box-shadow: 0px 0px 10px 5px #0d2b89;
+    box-shadow: 0px 0px 20px 7px #0d2b89;
+    color: #0d2b89;
 }
 .name_btn1 p{
     color: #2e2c36;
 }
 .name_btn1:hover{
-    box-shadow: 0px 0px 10px 5px #980f38;
+    box-shadow: 0px 0px 20px 7px #980f38;
 }
 table{      /* 테이블 중앙정렬*/
     margin-left: auto;
